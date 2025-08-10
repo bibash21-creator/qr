@@ -23,9 +23,9 @@ body{
 
 .card img{
     
-    width: 10em;
+    width: 10.5em;
     object-fit: contain;
-    height: 10em;
+    height: 10.5em;
     border-radius: 10px;
     border: 1px solid rgba(70, 70, 255, 0.774);
 }
