@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+
+:root{
+    --background-color: hsl(212,45%,89%);
+    --card-bg-color: hsl(0, 5%, 100%);
+    --card-img-border: rgba(70, 70, 255, 0.774);
+    --text-color: hsl(216, 15%, 48%);
+}
 body{
-    background: hsl(212, 45%, 89%);
+    background: var(--background-color);
 }
 
 #container{
@@ -13,12 +20,12 @@ body{
 
 .card{
    width:12em;
-   height:18em;
+   height:18,5em;
    padding-top:0.5em;
-   border: 3px solid hsl(0, 0%, 100%);
+   border: 3px solid var(--card-bg-color);
    border-radius: 10px;
     text-align: center;
-    background: hsl(0, 0%, 100%);
+    background: var(--card-bg-color);
 }
 
 .card img{
@@ -27,7 +34,7 @@ body{
     object-fit: contain;
     height: 10.5em;
     border-radius: 10px;
-    border: 1px solid rgba(70, 70, 255, 0.774);
+    border: 1px solid var(--card-img-border);
 }
 
 .card h1{
@@ -37,7 +44,7 @@ body{
 }
 
 .card p{
-    color: hsl(216, 15%, 48%);
+    color: var(--text-color);
     font-size: 0.8em;
     font-weight: 400;
     font-family: "Outfit", sans-serif;
