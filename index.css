@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    background: hsl(212, 45%, 89%);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+   width:210px;
+   height: 350px;
+   padding: 0.5em;
+   border: 3px solid hsl(0, 0%, 100%);
+   border-radius: 10px;
+    text-align: center;
+    background: hsl(0, 0%, 100%);
+}
+
+.card img{
+    width: 200px;
+    height: 100%;
+    object-fit: full;
+    height: 200px;
+    border: 3px solid rgba(22, 129, 230, 0.822);
+    border-radius: 10px;
+}
+
+.card h1{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Outfit", sans-serif;
+}
+
+.card p{
+    color: hsl(216, 15%, 48%);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+}
