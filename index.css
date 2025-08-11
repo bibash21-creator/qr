@@ -20,7 +20,7 @@ body{
 
 .card{
    width:12em;
-   height:18,5em;
+   height:18.5em;
    padding-top:0.5em;
    border: 3px solid var(--card-bg-color);
    border-radius: 10px;
