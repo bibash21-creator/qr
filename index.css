@@ -11,8 +11,7 @@ body{
     background: var(--background-color);
 }
 
-#container{
-    height: 100vh;
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +20,7 @@ body{
 .card{
    width:12em;
    height:18.5em;
-   padding-top:0.5em;
+    padding-block-start: clamp(0.5em, 2vw,2em);
    border: 3px solid var(--card-bg-color);
    border-radius: 10px;
     text-align: center;
